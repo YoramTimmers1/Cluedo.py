@@ -8,3 +8,7 @@ WatIsLeeftijd = input("wat is je leeftijd? :")
 ManOfVrouw = input("bent u een man of vrouw? :")
 if ManOfVrouw == "man":
     ManVraag = input ("bent u kaal? :")
+else:
+    Vrouwvraag = input("welke kleur haar heeft u? :")
+HebjeEenBril = input("heeft u een bril? :")
+
