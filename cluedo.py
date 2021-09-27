@@ -5,10 +5,14 @@ print("veel succes")
 print("-------------------------------------------------------------------------")
 
 WatIsLeeftijd = input("wat is je leeftijd? :")
-ManOfVrouw = input("bent u een man of vrouw? :")
+HoeveelWeegje = input("hoeveel Kg weeg je? :")
+
+ManOfVrouw = input("ben je een man of vrouw? :")
 if ManOfVrouw == "man":
-    ManVraag = input ("bent u kaal? :")
+    BenjeKaal = input("ben je kaal? :")                 #MANNEN VRAGEN
+    HebJeEenSnor = input("heb je een snor? :")
+    
 else:
-    Vrouwvraag = input("welke kleur haar heeft u? :")
-HebjeEenBril = input("heeft u een bril? :")
+    WatVoorKleurHaar = input("wat voor kleur haar heb je? :")   #VROUWEN VRAGEN
+
 
